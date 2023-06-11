@@ -22,10 +22,10 @@
         <Grid Grid.Row="1" Grid.Column="1" Background="#c3c3c3"/>
         <Grid Grid.Row="2" Grid.Column="2">
             <WrapPanel>
-                <Image Source="C:\Users\Public\Downloads\pin2.png" Width="30" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                <Image Source="images\pin2.png" Width="30" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 <TextBlock Text="Write a message..." VerticalAlignment="Center" FontSize="15" FontWeight="Medium" Foreground="#c3c3c3"/>
-                <Image Source="C:\Users\Public\Downloads\emoji.png" Width="30" Margin="340,0,0,0"/>
-                <Image  Source="C:\Users\Asus\Downloads\microphone.png" Width="20" Margin="20,0,0,0"/>
+                <Image Source="images\emoji.png" Width="30" Margin="340,0,0,0"/>
+                <Image  Source="images\microphone.png" Width="20" Margin="20,0,0,0"/>
             </WrapPanel>
         </Grid>
 
@@ -40,8 +40,8 @@
         <Grid Grid.Column="1">
             <TextBlock Text="Eva Summer" FontSize="18" FontWeight="Bold" Margin="30"/>
             <TextBlock Text="online" Margin="30,50,0,0" Foreground="#4cc2ff" FontWeight="Bold"/>
-            <Image Source="C:\Users\Public\Downloads\icons8-search-32.png" Width="20" Margin="420,0,0,0"/>
-            <Image Source="C:\Users\Public\Downloads\menu-vertical.png" Width="20" Margin="470,0,0,0"/>
+            <Image Source="images\icons8-search-32.png" Width="20" Margin="420,0,0,0"/>
+            <Image Source="images\menu-vertical.png" Width="20" Margin="470,0,0,0"/>
         </Grid>
         <StackPanel Grid.Row="1">
             <WrapPanel Background="#3b9dda" Height="65">
@@ -51,7 +51,7 @@
                 <StackPanel Orientation="Horizontal" Margin="5">
                     <TextBlock Text="Eva Summer" Margin="0,10,0,0" FontSize="15" Foreground="White" FontWeight="Medium"/>
                     <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
-                        <Image Source="C:\Users\Public\Downloads\pin.png" Width="20" Height="20"  Margin="70,30,0,0"/>
+                        <Image Source="images\pin.png" Width="20" Height="20"  Margin="70,30,0,0"/>
                     </StackPanel>
                 </StackPanel>
             </WrapPanel>

@@ -7,4 +7,24 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\emoji.png" />
+    <None Remove="images\hamburger-menu.png" />
+    <None Remove="images\icons8-search-32.png" />
+    <None Remove="images\menu-vertical.png" />
+    <None Remove="images\microphone.png" />
+    <None Remove="images\pin.png" />
+    <None Remove="images\pin2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\emoji.png" />
+    <Resource Include="images\hamburger-menu.png" />
+    <Resource Include="images\icons8-search-32.png" />
+    <Resource Include="images\menu-vertical.png" />
+    <Resource Include="images\microphone.png" />
+    <Resource Include="images\pin.png" />
+    <Resource Include="images\pin2.png" />
+  </ItemGroup>
+
 </Project>
