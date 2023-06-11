@@ -1,0 +1,142 @@
+﻿<Window x:Class="Telegram_Design.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Telegram_Design"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="950" ResizeMode="CanResize" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.1*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid Grid.Row="1" Grid.Column="1" Background="#c3c3c3"/>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <WrapPanel>
+                <Image Source="C:\Users\Public\Downloads\pin2.png" Width="30" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                <TextBlock Text="Write a message..." VerticalAlignment="Center" FontSize="15" FontWeight="Medium" Foreground="#c3c3c3"/>
+                <Image Source="C:\Users\Public\Downloads\emoji.png" Width="30" Margin="340,0,0,0"/>
+                <Image  Source="C:\Users\Asus\Downloads\microphone.png" Width="20" Margin="20,0,0,0"/>
+            </WrapPanel>
+        </Grid>
+
+        <Border BorderBrush="#f1f1f1" BorderThickness="1.5">
+            <WrapPanel>
+                <Image Source="C:\Users\public\Downloads\hamburger-menu.png" Margin="15,30,0,0" Height="30" Width="30"/>
+                <Border BorderBrush="#f1f1f1" Background="#f1f1f1" BorderThickness="1" CornerRadius="5" Margin="28,30,0,0">
+                    <TextBox Width="200" Height="40"  Background="Transparent" BorderThickness="0"/>
+                </Border>
+            </WrapPanel>
+        </Border>
+        <Grid Grid.Column="1">
+            <TextBlock Text="Eva Summer" FontSize="18" FontWeight="Bold" Margin="30"/>
+            <TextBlock Text="online" Margin="30,50,0,0" Foreground="#4cc2ff" FontWeight="Bold"/>
+            <Image Source="C:\Users\Public\Downloads\icons8-search-32.png" Width="20" Margin="420,0,0,0"/>
+            <Image Source="C:\Users\Public\Downloads\menu-vertical.png" Width="20" Margin="470,0,0,0"/>
+        </Grid>
+        <StackPanel Grid.Row="1">
+            <WrapPanel Background="#3b9dda" Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#e17072" CornerRadius="50">
+                    <TextBlock Text="ES" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Eva Summer" Margin="0,10,0,0" FontSize="15" Foreground="White" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="100,0,0,0">
+                        <Image Source="C:\Users\Public\Downloads\pin.png" Width="20" Height="20"  Margin="70,30,0,0"/>
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#faa86e" CornerRadius="50">
+                    <TextBlock Text="AS" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Alexandra Smith" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                        
+                    </StackPanel>
+                </StackPanel>
+                
+            </WrapPanel>
+            
+
+            <WrapPanel  Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#e5cb73" CornerRadius="50">
+                    <TextBlock Text="MA" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Mike Apple" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#74cc59" CornerRadius="50">
+                    <TextBlock Text="EC" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Evening Club" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel  Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#67cacd" CornerRadius="50">
+                    <TextBlock Text="OP" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Old Pirates" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel  Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#5faae3" CornerRadius="50">
+                    <TextBlock Text="MB" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Max Bright" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#a593e7" CornerRadius="50">
+                    <TextBlock Text="NP" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Natalie Parker" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            <WrapPanel Height="65">
+                <Border Width="50" Margin="7" Height="50" Background="#f178ad" CornerRadius="50">
+                    <TextBlock Text="DJ" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="23" FontWeight="Medium"/>
+                </Border>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Davy Jones" Margin="0,10,0,0" FontSize="15" Foreground="Black" FontWeight="Medium"/>
+                    <StackPanel Orientation="Horizontal" Margin="57,0,0,0">
+                    </StackPanel>
+                </StackPanel>
+            </WrapPanel>
+            
+        </StackPanel>
+
+       
+
+        <TextBlock Text="Reminds me of a Chinese prover..." Grid.Row="1" Margin="70,40,0,0" Foreground="White" FontWeight="Medium"/>
+        <TextBlock Text="11:00" Foreground="#fff" Margin="30,10,0,0" Grid.Row="1" TextAlignment="Right" Padding="5"/>
+        <Grid Grid.Row="1" Grid.Column="1"/>
+    </Grid>
+</Window>
